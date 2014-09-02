@@ -19,7 +19,7 @@ public class Q2 implements Runnable {
     @Override
     public void run() {
 
-        System.out.println("Q2:" + (num % 10 + num / 10));
+        System.out.println("Q2: " + (num % 10 + num / 10));
 
     }
 

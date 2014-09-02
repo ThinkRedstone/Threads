@@ -5,7 +5,6 @@
  */
 package Q;
 
-import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -24,11 +23,11 @@ public class Q1a implements Runnable {
        
             
             try {
-                Thread.sleep((long) (Math.random() * 1000));
+                Thread.sleep((long) (Math.random() * 10000));
             } catch (InterruptedException ex) {
                 Logger.getLogger(Q1a.class.getName()).log(Level.SEVERE, null, ex);
             }
-            System.out.println("Q1a" + num * 1.6);
+            System.out.println("Q1a: " + num * 1.6);
             
         
     }

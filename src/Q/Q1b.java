@@ -20,11 +20,11 @@ public class Q1b implements Runnable {
     public void run() {
 
         try {
-            Thread.sleep((long) (Math.random() * 1000));
+            Thread.sleep((long) (Math.random() * 10000));
         } catch (InterruptedException ex) {
             Logger.getLogger(Q1a.class.getName()).log(Level.SEVERE, null, ex);
         }
-        System.out.println("Q1b" + ((num + num2) / 2));
+        System.out.println("Q1b: " + ((num + num2) / 2));
     }
 
     public Q1b(int num, int num2) {

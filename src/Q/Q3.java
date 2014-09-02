@@ -23,7 +23,7 @@ public class Q3 implements Runnable{
       
      
             try {
-                Thread.sleep((long) (Math.random() * 1000));
+                Thread.sleep((long) (Math.random() * 10000));
             } catch (InterruptedException ex) {
                 Logger.getLogger(Q1a.class.getName()).log(Level.SEVERE, null, ex);
             }
